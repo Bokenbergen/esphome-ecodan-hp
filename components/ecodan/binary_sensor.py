@@ -132,6 +132,10 @@ CONFIG_SCHEMA = cv.Schema(
             entity_category=ENTITY_CATEGORY_NONE,
             icon="mdi:power-off",
         ),
+        cv.Optional("status_dhw_setpoint_value"): binary_sensor.binary_sensor_schema(
+            entity_category=ENTITY_CATEGORY_NONE,
+            icon="mdi:hand-water",
+        ),
     }).extend(cv.COMPONENT_SCHEMA)
 
 async def to_code(config):
