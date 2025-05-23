@@ -125,4 +125,3 @@ substitutions:
   super_heat_temp: Discharge Superheat Temp
   sub_cool_temp: Subcooling Temp
   fan_speed: Fan Speed
-  status_dhw_setpoint_value: DHW Setpoint Temp
