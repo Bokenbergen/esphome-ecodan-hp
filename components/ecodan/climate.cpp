@@ -221,5 +221,13 @@ namespace ecodan
         }
     }
 
+sensor::Sensor *dhw_flow_temp_target = new sensor::Sensor();
+App.register_sensor(dhw_setpoint_sensor);
+
+// In your update function or wherever appropriate
+float setpoint = get_target_temp(); // Replace with the actual function to get the setpoint
+dhw_setpoint_sensor->publish_state(setpoint);
+
+
 } // namespace ecodan
 } // namespace esphome
