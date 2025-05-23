@@ -560,6 +560,3 @@ binary_sensor:
     status_in5_request:
       id: status_in5_request
       name: ${status_in5_request}
-    status_dhw_setpoint_value:
-      id: status_dhw_setpoint_value
-      name: ${dhw_flow_temp_target}
