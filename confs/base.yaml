@@ -562,4 +562,4 @@ binary_sensor:
       name: ${status_in5_request}
     status_dhw_setpoint:
       id: status_dhw_setpoint_value
-      name: ${status_dhw_setpoint_value}
+      name: ${dhw_flow_temp_target}
